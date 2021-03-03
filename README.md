@@ -15,7 +15,7 @@
 
 * Base de datos:
   - app_store
-* Tablas:
+* Tablas: (creación automática mediante <i>migrations</i>)
   - USERS
     - id                BIGINT (PK)
     - email             VARCHAR
