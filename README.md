@@ -6,7 +6,7 @@
 ## Proyecto
 - Aplicación web en PHP utilizando Laravel 7.
 - Mercado de aplicaciones donde los usuarios puedan listar apps, ver información adicional, comprarlas, crearlas, etc.
-- Con Diferentes accesos:
+- Diferentes accesos:
   - Usuario Desarrollador
   - Usuario Cliente
   - Usuario Invitado (no logueado)
@@ -16,6 +16,16 @@
 * Base de datos:
   - app_store
 * Tablas:
+  - USERS
+    - id                BIGINT (PK)
+    - email             VARCHAR
+    - user              VARCHAR
+    - email_verified_at TIMESTAMP
+    - password          VARCHAR
+    - developer         BOOLEAN
+    - remember_token    VARCHAR
+    - created_at        TIMESTAMP
+    - updated_at        TIMESTAMP
   - APPS
     - id            BIGINT (PK)
     - category      VARCHAR
@@ -33,16 +43,7 @@
     - app_id        BIGINT (FK)
     - created_at    TIMESTAMP
     - updated_at    TIMESTAMP
-  - USERS
-    - id                BIGINT (PK)
-    - email             VARCHAR
-    - user              VARCHAR
-    - email_verified_at TIMESTAMP
-    - password          VARCHAR
-    - developer         BOOLEAN
-    - remember_token    VARCHAR
-    - created_at        TIMESTAMP
-    - updated_at        TIMESTAMP
+
 
 # Autor
 Emiliano González - emiliano_g06@hotmail.com
