@@ -4,7 +4,12 @@
 </p>
 
 ## Proyecto
-Aplicación web en PHP utilizando Laravel 7. Mercado de aplicaciones donde los usuarios puedan listar apps, ver información adicional y comprar las mismas
+- Aplicación web en PHP utilizando Laravel 7.
+- Mercado de aplicaciones donde los usuarios puedan listar apps, ver información adicional, comprarlas, crearlas, etc.
+- Con Diferentes accesos:
+  - Usuario Desarrollador
+  - Usuario Cliente
+  - Usuario Invitado (no logueado)
 
 ## Detalles
 
